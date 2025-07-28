@@ -23,9 +23,22 @@ public class App {
 
         double decimal =5.123123345345;
         float decimal2 = 5.1231f; // Decimal con punto flotante (menos preciso que double)
-        
+        //LETRAS
+        char letra = 'a'; // Un solo caracter
+        //BOOLEANOS
+        boolean esVerdadero = true; // Verdadero o falso
+        boolean esFalso = false; // Verdadero o falso
+
         System.out.println(n);
         System.out.println(decimal);
         System.out.println(decimal2);
+        System.out.println(letra);
+        System.out.println(esVerdadero);
+        System.out.println(esFalso);
+
+        //CADENA DE CARACTERES
+        String texto = "Hola, soy una cadena de caracteres"; // Cadena de texto
+        System.out.println(texto); 
+
     }
 }
